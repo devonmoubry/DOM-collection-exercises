@@ -1,4 +1,4 @@
-var results = {
+var cats = {
     data: [{
         type: "gif",
         id: "64zSh1uTE7xxm",

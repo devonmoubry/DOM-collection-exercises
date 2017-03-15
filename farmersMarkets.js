@@ -1,4 +1,4 @@
-var results = [{
+var farmers = [{
         "id": "1005535",
         "marketname": "0.5 SFC Farmers' Market Downtown"
     }, {
