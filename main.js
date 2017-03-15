@@ -26,5 +26,12 @@ titles.forEach(function (item, index, array) {
 //access object
 
 //access thumbnail property
-
+console.log(cats);
+var justTheThumbnails = cats.data.map(function(current, index, array) {
+  return '<img src="' + current.images.fixed_width_downsampled.url + '"/>';
+})
 //output thumbnail img to DOM
+justTheThumbnails.forEach(function (item, index, array) {
+  var output = document.querySelector('.giphy-cats');
+  output.innerHTML += item;
+})
